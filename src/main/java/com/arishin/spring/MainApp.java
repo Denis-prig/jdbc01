@@ -28,5 +28,6 @@ public class MainApp {
          System.out.print(", Name : " + record.getName() );
          System.out.println(", Age : " + record.getAge());
       }  
+      System.out.println("----------------------------------------");
    }
 }
