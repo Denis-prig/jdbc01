@@ -33,9 +33,9 @@ public class MainApp {
          System.out.println(", Age : " + record.getAge());
       }  
       System.out.println("----------------------------------------");
-      
-      System.out.println("----Delete Record with ID = 2 -----" );
-      studentJDBCTemplate.delete(2);
+//      
+//      System.out.println("----Delete Record with ID = 2 -----" );
+//      studentJDBCTemplate.delete(2);
 
       System.out.println("------Listing Multiple Records--------" );
       List<Student> students1 = studentJDBCTemplate.listStudents();
